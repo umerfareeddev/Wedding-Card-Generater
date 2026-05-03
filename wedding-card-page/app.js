@@ -42,7 +42,7 @@ async function drawCard() {
     const mainFont = fonts.main;
     const detailFont = fonts.detail;
 
-    canvas.width = 468;
+    canvas.width = 500;
     canvas.height = 612;
     const centerX = canvas.width / 2;
 
@@ -82,24 +82,24 @@ async function drawCard() {
     ctx.font = `bold 20px ${mainFont}`;
     ctx.fillText(`${inviterPrefix} ${inviterName}`, centerX, 65);
     
-    ctx.font = `16px ${detailFont}`;
+    ctx.font = `14px ${detailFont}`;
     ctx.fillText(runningSentence, centerX, 90);
     
     ctx.font = `bold 22px ${mainFont}`;
     ctx.fillText(eventTypeRaw, centerX, 115);
     
-    ctx.font = `italic 16px ${detailFont}`;
+    ctx.font = `italic 14px ${detailFont}`;
     ctx.fillText(`of ${pronoun} beloved daughter`, centerX, 138);
 
-    ctx.font = `bold 38px ${mainFont}`;
+    ctx.font = `bold 30px ${mainFont}`;
     ctx.fillText(brideName, centerX, 185);
     ctx.font = `15px ${detailFont}`;
     ctx.fillText(`D/o. ${brideFather}`, centerX, 208);
     
-    ctx.font = `italic 22px ${mainFont}`;
+    ctx.font = `italic 15px ${detailFont}`;
     ctx.fillText("With", centerX, 240);
     
-    ctx.font = `bold 38px ${mainFont}`;
+    ctx.font = `bold 30px ${mainFont}`;
     ctx.fillText(groomName, centerX, 285);
     ctx.font = `15px ${detailFont}`;
     ctx.fillText(`S/o. ${groomFather}`, centerX, 308);

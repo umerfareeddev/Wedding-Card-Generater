@@ -61,7 +61,8 @@ body {
 #dates,
 #LawnBanquetHotel,
 #adress,
-#Name {
+#Name,
+#font-combo-style {
     width: 100%;
     padding: 12px 15px;
     border: 1.8px solid #d4af37;
@@ -152,11 +153,11 @@ p {
     color: #d4af37;
 }
 
-#font-selection select {
+/* #font-selection select {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
     font-family: 'Tinos', serif;
     margin-bottom: 15px;
-}
+} */
